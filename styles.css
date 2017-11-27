@@ -13,6 +13,8 @@
       }
       .fw h1 { text-align: center; }
       .hw {  box-sizing: border-box; display: inline-block; width: 50%; }
+      .quarter-w {  box-sizing: border-box; display: inline-block; width: 25%; }
+      .third-w {  box-sizing: border-box; display: inline-block; width: 33.333333%; }
       .p-2 { padding: 2px;}
       .p-3 { padding: 3px;}
       .p-4 { padding: 4px;}
