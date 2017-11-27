@@ -12,13 +12,13 @@
         width:100%;
       }
       .fw h1 { text-align: center; }
-      .hw { width: calc(50% - 6px);}
+      .hw { width: 50%; box-sizing: border-box; }
       .pull-right { display:block; float:right; }
       .pull-left { display:block; float:left; }
       .p-2 { padding: 2px;}
       .p-3 { padding: 3px;}
-      .m-2 { padding: 2px;}
-      .m-3 { padding: 3px;}
+      .m-2 { margin: 2px;}
+      .m-3 { margin: 3px;}
     </style>
   </head>
   <body>
@@ -26,11 +26,11 @@
     <div class="fw border-3-black">
       <h1>Header</h1>
     </div>
-    <div class="hw pull-right border-3-black">
+    <div class="hw pull-right border-3-black p-2 m-2">
       <h3>Placeholder</h3>
       <p>Some text.</p>
     </div>
-    <div class="hw pull-left border-3-black">
+    <div class="hw pull-left border-3-black p-2 m-2">
       <h3>Placeholder</h3>
       <p>Some text.</p>
     </div>
