@@ -1,15 +1,15 @@
-.list {
+.List {
   list-style-type: none;
 }
 
-.list--horizontal .list__item {
+.List--horizontal .list__item {
   display: inline-block;
 }
 
-.list--red-first-item :first-child {
+.List--red-first-item :first-child {
   color: red;
 }
 
-.list__item {
+.List__item {
   padding-bottom: 5px;
 }
