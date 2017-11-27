@@ -5,10 +5,16 @@
     <!-- Here we reference our styles.css for our page styling -->
     <link rel="stylesheet" href="styles.css">
     <style>
+      body { margin:0; padding:0; }
+      .border-1-black {
+        border: 1px solid #000;
+      }
       .border-3-black {
         border: 3px solid #000;
       }
       .fw {
+        box-sizing: border-box;
+        display:inline-block;        
         width:100%;
       }
       .fw h1 { text-align: center; }
@@ -23,14 +29,14 @@
   </head>
   <body>
     <!-- This is where you will begin your solution -->
-    <div class="fw border-3-black">
+    <div class="fw border-1-black">
       <h1>Header</h1>
     </div>
-    <div class="hw pull-right border-3-black p-2 m-2">
+    <div class="">
       <h3>Placeholder</h3>
       <p>Some text.</p>
     </div>
-    <div class="hw pull-left border-3-black p-2 m-2">
+    <div class="">
       <h3>Placeholder</h3>
       <p>Some text.</p>
     </div>
